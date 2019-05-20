@@ -137,7 +137,7 @@ body {
   label a:hover{
     text-decoration: underline;
   }
-  .signupBox input[type="text"],.signupBox input[type="password"], .signupBox input[type="number"]{
+  .signupBox input[type="text"],.signupBox input[type="password"], .signupBox input[type="number"], .signupBox input[type="email"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
