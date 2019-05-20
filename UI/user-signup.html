@@ -29,15 +29,15 @@
             <div class="subcontainer">
                 <form action="#">
                   <p>Full name</p>
-                  <input type="text" placeholder="your full name" name="name" required>
+                  <input required type="text" placeholder="your full name" name="name">
                   <p>Email</p>
-                  <input type="text" placeholder="example@email.com" name="email" required>
+                  <input required type="email" placeholder="example@email.com" name="email">
                   <p>Phone number</p>
-                  <input type="number" placeholder="012345" name="number" required>
+                  <input required type="number" placeholder="012345" name="number">
                   <p>Password</p>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
+                  <input required type="password" placeholder="Enter Password" name="psw">
                   <p>Confirm Password</p>
-                  <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+                  <input required type="password" placeholder="Confirm Password" name="psw-repeat">
 
                    <label class="container1"> Click to accept the <a href="#">terms of service</a>
                       <input type="checkbox" checked="checked" required>
@@ -45,7 +45,7 @@
                     </label>
                   
                   <div>
-                    <button type="submit" class="signupbtn">REGISTER</button>
+                    <button type="submit" id="submit-btn" class="signupbtn">REGISTER</button>
                     <div class="acct">
                             Already have an account? <a href="user-login.html">login</a>
                     </div>
