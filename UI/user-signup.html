@@ -28,24 +28,24 @@
             </div>
             <div class="subcontainer">
                 <form action="#">
-                  <p>Full name</p>
-                  <input required type="text" placeholder="your full name" name="name">
-                  <p>Email</p>
-                  <input required type="email" placeholder="example@email.com" name="email">
-                  <p>Phone number</p>
-                  <input required type="number" placeholder="012345" name="number">
-                  <p>Password</p>
-                  <input required type="password" placeholder="Enter Password" name="psw">
-                  <p>Confirm Password</p>
-                  <input required type="password" placeholder="Confirm Password" name="psw-repeat">
+                  <label for="name">Full name</label>
+                  <input type="text" placeholder="your full name" id="name" name="name" required>
+                  <label for="email">Email</label>
+                  <input type="text" placeholder="example@email.com" id="email" name="email" required>
+                  <label for="number">Phone number</label>
+                  <input type="number" placeholder="012345" id="number" name="number" required>
+                  <label for="password">Password</label>
+                  <input type="password" placeholder="Enter Password" id="password" name="psw" required>
+                  <label for="psw-repeat">Confirm Password</label>
+                  <input type="password" placeholder="Confirm Password" id="psw-repeat" name="psw-repeat" required>
 
-                   <label class="container1"> Click to accept the <a href="#">terms of service</a>
-                      <input type="checkbox" checked="checked" required>
+                   <label for="checkbox" class="container1"> Click to accept the <a href="#">terms of service</a>
+                      <input type="checkbox" id="checkbox" checked="checked" required>
                       <span class="checkmark"></span>
                     </label>
                   
                   <div>
-                    <input type="submit" id="submit-btn" value=">REGISTER" class="signupbtn"/>
+                    <button type="submit" class="signupbtn">REGISTER</button>
                     <div class="acct">
                             Already have an account? <a href="user-login.html">login</a>
                     </div>
